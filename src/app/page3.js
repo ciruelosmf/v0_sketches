@@ -60,6 +60,11 @@ export default function Component() {
           </div>
         ))}
       </div>
+      <div className="absolute top-4 right-4">
+        <Link href="/page2">
+          <a className="text-white bg-blue-500 px-4 py-2 rounded">Go to Page</a>
+        </Link>
+      </div>
     </div>
   )
 }
